@@ -1,0 +1,13 @@
+{
+  "currency": "INR",
+  "estimate_label": "Approximate planning estimate; not a live quote",
+  "transport_round_trip": { "bus": 1200, "train": 2600, "flight": 9000 },
+  "destination_tiers": {
+    "economy": { "maximum_source_budget_inr": 7000, "rate_factor": 0.85, "room_night_inr": 1800, "activity_person_day_inr": 300, "local_transport_person_day_inr": 250 },
+    "standard": { "maximum_source_budget_inr": 13000, "rate_factor": 1.0, "room_night_inr": 3200, "activity_person_day_inr": 600, "local_transport_person_day_inr": 400 },
+    "premium": { "rate_factor": 1.35, "room_night_inr": 5500, "activity_person_day_inr": 1000, "local_transport_person_day_inr": 650 }
+  },
+  "food_person_day_inr": { "budget": 450, "vegetarian": 650, "standard": 950, "premium": 1800 },
+  "room_capacity_people": 2,
+  "rounding_unit_inr": 10
+}
